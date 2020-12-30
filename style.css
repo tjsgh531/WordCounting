@@ -10,6 +10,7 @@ body{
     background: url(./background.jpg);
     background-position:center;
     background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +24,7 @@ main{
     position: relative;
 
     width: 960px;
-    height: 720px;
+    height: 540px;
     background: rgba(255, 255, 255, 0.3);
 }
 main > #textArea{
@@ -42,12 +43,12 @@ main > #textArea{
     caret-color: #000;
 }
 main >#result{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 900;
     font-family: sans-serif;
     color: white;
     text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 
     position: absolute;
-    bottom: 18px;
+    bottom: 12px;
 }
