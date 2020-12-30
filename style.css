@@ -21,7 +21,7 @@ main{
     align-items: center;
     justify-content: center;
 
-    position: relative;
+
 
     width: 960px;
     height: 540px;
@@ -48,7 +48,6 @@ main >#result{
     font-family: sans-serif;
     color: white;
     text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
-
-    position: absolute;
-    bottom: 12px;
+    line-height: 2;
+    
 }
